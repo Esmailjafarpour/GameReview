@@ -61,6 +61,7 @@ const GameDetail = () => {
                         <p>{getStarIcon()}</p>
                     </div>
                     <Info>
+                        
                         <h3>Platforms</h3>
                         <Platform>
                             {game.platforms.map(data=>(
